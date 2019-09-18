@@ -72,7 +72,12 @@ public class Calculator {
   private double subtract(double a, double b) {
     //TODO Напиши реализацию этого метода, чтобы он выполнял вычитание,
     // сейчас всегда возвращается ноль.
-    return 0;
+    return a-b;
+  }
+  private double multiply(double a, double b) {return a*b;
+  }
+  private double divide (double a, double b) {
+    return a / b;
   }
 
   //TODO Допиши по аналогии еще два метода: multiply, divide
