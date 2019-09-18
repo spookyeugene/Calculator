@@ -74,12 +74,8 @@ public class Calculator {
     // сейчас всегда возвращается ноль.
     return a-b;
   }
-  private double multiply(double a, double b) {return a*b;
-  }
+  private double multiply(double a, double b) {
+    return a*b;}
   private double divide (double a, double b) {
-    return a / b;
-  }
-
-  //TODO Допиши по аналогии еще два метода: multiply, divide
-
+    return a / b;}
 }
